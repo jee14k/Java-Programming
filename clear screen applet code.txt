@@ -1,0 +1,15 @@
+public void clear() 
+{ 
+
+Graphics g = getGraphics(); 
+
+Dimension d = getSize(); 
+
+Color c = getBackground(); 
+
+g.setColor(c); 
+
+g.fillRect(0,0,d.width,d.height); 
+
+repaint(); 
+} 
